@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: center;   /* Центрируем содержимое по горизонтали */
+  align-items: center;       /* Центрируем по вертикали */
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  margin-right: 40px; /* Отступ между заголовком и навигацией */
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff9800; /* При наведении подсветка */
+}
